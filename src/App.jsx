@@ -2,14 +2,15 @@ import "./App.css";
 import Promote from "./Component/Promote";
 import PromoteSection from "./Component/PromoteSection";
 import Review from "./Component/Review";
+import Footer from "./Component/Footer";
 
 function App() {
   return (
     <>
-      <div className="font-sora text-[#EEE5FF]  bg-transparent">
+      <div className="font-sora pt-8 mx-[20rem] text-[#EEE5FF] pointer-events-none  absolute  bg-transparent">
         <div className=" flex items-center justify-between ">
           <img src="logo.png" />
-          <button className="bg-white cursor-pointer py-[0.75rem] px-8 transition-colors duration-300 rounded-[5px] hover:bg-transparent border-white text-black border-2 hover:text-white">
+          <button className="bg-white pointer-events-auto cursor-pointer py-[0.75rem] px-8 transition-colors duration-300 rounded-[5px] hover:bg-transparent border-white text-black border-2 hover:text-white">
             Purchase Now
           </button>
         </div>
@@ -46,6 +47,7 @@ function App() {
         </div>
         <Promote />
         <PromoteSection />
+        <Footer />
       </div>
     </>
   );

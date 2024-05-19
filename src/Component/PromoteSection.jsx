@@ -23,12 +23,12 @@ const PromoteSection = () => {
           <img src="frame-1.png" alt="" />
         </div>
       </div> */}
-      <div className="flex w-full my-16 justify-between">
+      <div className="flex mt-40 my-16 ">
         {" "}
-        <Sections margin={"-ml-[10px]"} />
-        <Sections margin={"mt-[60px] -mb-[60px]"} />
+        <Sections margin={"-mt-[100px]"} />
+        <Sections margin={"-mb-[100px] ml-[1.25rem] "} />
       </div>
-      <div className="bg-gradient-to-b my-10 mt-36 py-10 text-center from-[#0E0620] border-2 rounded-3xl border-[#332C42]  to-[#251E35]">
+      <div className="bg-gradient-to-b my-10 mt-64 py-10 text-center from-[#0E0620] border-2 rounded-3xl border-[#332C42]  to-[#251E35]">
         <h1 className="text-[#EEE5FF]  text-2xl font-medium text-center leading-tight tracking-wider">
           Supported by All Popular Browsers
         </h1>
@@ -67,7 +67,7 @@ const Sections = ({ margin }) => {
   return (
     <>
       <div
-        className={` p-8 w-[600px]  ${margin} bg-gradient-to-b from-[#0E0620] border-2 rounded-3xl border-[#332C42]  to-[#251E35]`}
+        className={` p-8 w-[38.125rem]  ${margin} bg-gradient-to-b from-[#0E0620] border-2 rounded-3xl border-[#332C42]  to-[#251E35]`}
       >
         <h1 className="text-[#EEE5FF] w-fit text-3xl font-medium text-left leading-tight tracking-wider">
           Apply On Section
@@ -76,7 +76,7 @@ const Sections = ({ margin }) => {
           Apply on section is a game-changer, offering an unparalleled way to
           manage applications directly from your website.
         </p>
-        <img src="frame-1.png" alt="" className="w-10/12" />
+        <img src="frame-1.png" alt="" />
       </div>
     </>
   );
