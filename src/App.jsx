@@ -6,7 +6,7 @@ import Review from "./Component/Review";
 function App() {
   return (
     <>
-      <div className="font-sora text-[#EEE5FF]  bg-transparent">
+      <div className="font-sora text-[#EEE5FF] pointer-events-none  absolute  bg-transparent">
         <div className=" flex items-center justify-between ">
           <img src="logo.png" />
           <button className="bg-white cursor-pointer py-[0.75rem] px-8 transition-colors duration-300 rounded-[5px] hover:bg-transparent border-white text-black border-2 hover:text-white">
